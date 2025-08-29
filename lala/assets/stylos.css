@@ -1,0 +1,37 @@
+/* Sobrescribir estilos de Bootstrap o añadir nuevos */
+
+/* Estilos para el body */
+body {
+    background-color: #f8f9fa; /* Color de fondo claro para la página */
+}
+
+/* Estilos personalizados para el navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Estilos para la sección de extracto */
+.lead {
+    color: #495057; /* Un gris oscuro para el texto del extracto */
+}
+
+/* Estilos para el footer */
+footer.bg-dark {
+    background-color: #212529 !important; /* Asegurar que el color del footer sea un negro más oscuro */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Estilos para el formulario de contacto */
+.form-label {
+    font-weight: 500; /* Texto de las etiquetas del formulario más grueso */
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: #0d6efd; /* Color azul de Bootstrap para los títulos */
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
